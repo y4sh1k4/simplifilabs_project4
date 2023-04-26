@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="box">
+        <div class="center">
+            <div class="left">
+                <img src="yashi back.jpg" alt="">
+            </div>
+            <div class="right">
+                <h1>Product Survey</h1>
+                <form action="https://enw7u145b8im9.x.pipedream.net/" method="post">
+                    <section class="name">
+                        <div class="first">
+                            <label>First Name</label>
+                            <input type="text" name="first_name" placeholder="First Name" required>
+                            <br>
+                        </div>
+                        <div class="first">
+                            <label>Last Name</label>
+                            <input type="text" name="last_name" placeholder="Last Name" required>
+                        </div>
+                    </section>
+                    <section class="adress">
+                        <div class="first">
+                            <label>Street</label>
+                            <input type="text" name="street_address" placeholder="Address" required>
+                            <br>
+                        </div>
+                        <div class="first">
+                            <label>City</label>
+                            <input type="text" name="city" placeholder="City" required>
+                            <br>
+                        </div>
+                        <div class="first">
+                            <label>State</label>
+                            <input type="state" placeholder="State" required>
+                            <br>
+                        </div>
+                        <div class="first">
+                            <label>Pincode</label>
+                            <input type="number" name="pincode" placeholder="Pincode" required>
+                            <br>
+                        </div>
+                        <div class="first">
+                            <label>Contact</label>
+                            <input type="number" name="contact_number" placeholder="Contact Number" required>
+                            <br>
+                        </div>
+                    </section>
+                    <section class="rating">
+                        <div class="first">
+                            <label class="radio_label">Quality of Product</label>
+                            <input type="radio" name="quality_of_product_recieved_rating" value="Bad" required>Bad
+                            <input type="radio" name="quality_of_product_recieved_rating" value="Good" required>Good
+                            <input type="radio" name="quality_of_product_recieved_rating" value="Excellent" required>Excellent
+                        </div>
+                        <div class="first">
+                            <label class="radio_label">Value for Money</label>
+                            <input type="radio" name="value_for_money_rating"value="Bad" required>Bad
+                            <input type="radio" name="value_for_money_rating" value="Good" required>Good
+                            <input type="radio" name="value_for_money_rating" value="Excellent" required>Excellent
+                        </div>
+                        <div class="first">
+                            <label class="radio_label">Delivey</label>
+                            <input type="radio" name="delivery_rating" value="Bad" required>Bad
+                            <input type="radio" name="delivery_rating" value="Good" required>Good
+                            <input type="radio" name="delivery_rating" value="Excellent" required>Excellent
+                        </div>
+                    </section>
+                    <button method="post">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
